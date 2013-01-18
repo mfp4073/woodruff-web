@@ -1,0 +1,87 @@
+body {
+	font: 14px "Lucida Sans Unicode", Verdana, sans-serif;
+	color: #000000;
+	background: #b7ea99  url(i/bodybg.jpg) repeat-x;
+	margin: 98px 0px 0px;
+	padding: 0px;
+}
+#wrapper {
+	background: url(i/subway.jpg) no-repeat left top;
+	margin: 0px;
+	padding: 0px;
+}
+#content {
+	margin: 0 20px 20px 180px;
+	padding: 60px 0 0 0;
+}
+#content p {
+	margin-right: 120px;
+	text-align: justify;
+}
+.image1{position: absolute;
+    top: 28px;
+    left: 5px;
+    height: 64px;
+    width: 254px;
+    z-index: 3
+}
+#nav {
+	width: 108px;
+	position: static;
+	float: right;
+	border-bottom: 2px solid #FFF;
+	border-top: 2px solid #FFF;
+}
+#navlist {
+	margin: 15px 4px 15px 4px;
+	padding: 0;
+	list-style: none;
+	border: 0;
+}
+#navlist li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100px;
+	border-bottom: 1px solid #FFF;
+	background: #FF9933;
+}
+#navlist li a {
+	margin: 0;
+	padding: 2px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 10px;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	display: block;
+	width: 100px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 94px;
+} 
+#navlist li a:hover {
+	background: #990000;
+	color: #FFF;
+}
+#navlisttop {
+	border-top: 1px solid #FFF;
+}
+#footer {
+	background: url(i/bodybg.jpg) repeat-x;
+	padding: 5px;
+}
+H1{
+	font: 36px  "Courier New", Tahoma, sans-serif;
+	color: #ffffff;
+	background: #787470;
+	width: 60%;
+	padding: 5px;
+}
+H2{
+	font: 28px  "Courier New", Tahoma, sans-serif;
+	color: #ffffff;
+	background: #787470;
+	width: 60%;
+	padding: 5px;
+}
