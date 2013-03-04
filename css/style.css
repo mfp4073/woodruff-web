@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #666;
+  overflow: scroll;
 }
 
 h3 {
@@ -48,7 +49,6 @@ a:hover {
   padding: 0 10px;
 }
 
-
 #recent-work-gallery {
   margin: 50px 0 0 100px;
 }
@@ -58,10 +58,12 @@ a:hover {
 }
 
 #recent_work2 {
+  display: block;
   width: 725px;
   height: auto;
   background: black;
   margin-left: 100px;
+  margin-bottom: 100px;
   padding: 10px;
   text-align: center
 }
@@ -82,4 +84,17 @@ a.fancybox {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.is-sold:before {
+ content: "";
+ display: block;
+ width: 20px;
+ height: 20px;
+ border-radius: 10px;
+ background: red;
+ position: relative;
+ top: 10px;
+ left: -10px;
+ z-index: 10;
 }

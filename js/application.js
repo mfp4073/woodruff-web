@@ -1,9 +1,15 @@
-$(function() {
+$(document).ready(function() {
 
-  $('#recent_work').galleryView({
-    panel_width: 850,
-    panel_height: 550
-  });
-
+$(".vimeo").fancybox({
+  width: 781,
+  height: 440,
+  type: 'iframe',
+  fitToView : false,
+  wrapCSS : 'fancybox-nav-video' // add a class selector to the fancybox wrap
 });
 
+$(".fancybox").fancybox({
+ // options for images here
+});
+
+}); // ready
